@@ -1,7 +1,7 @@
-#JavaScript Projects  
+# JavaScript Projects  
 These are the projects I made while learning javascript.  
 
-##Description of Projects: 
+## Description of Projects: 
 1. Stone Paper Scissors: A simple classic rock paper scissors game with interesting light hearted design
   * You play normally by clicking on the respective buttons.
   * You can press 'r' for rock and similarly for other buttons to play.
