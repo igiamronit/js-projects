@@ -1,0 +1,99 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.buttons {
+    background: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 4px #388e3c;
+    transition: all 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+.buttons:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Active Effect for Buttons */
+.buttons:active {
+    background: #2e7d32;
+    box-shadow: 0 2px #1b5e20;
+    transform: translateY(2px);
+}
+
+/* Result Paragraph */
+.result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Score Display */
+.score-show {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+    .percentwin {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 10px 20px;
+        border-radius: 8px;
+        display: inline-block;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    /* Shrink to fit content */
+    }
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .buttons {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+    .result {
+        font-size: 1.2rem;
+    }
+
+    .score-show {
+        font-size: 1rem;
+    }
+}        

@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>To do List</title>
+        <link rel="stylesheet" href="Styles/todo.css">       
+    </head>
+    <body>
+        <div class="todo-container">
+            <h2>To do list</h2>
+            <input class="taskbar" placeholder="Task" onkeydown="
+            if(event.key === 'Enter') {
+                document.querySelector('.date-input').focus();
+            }">
+            <input class="date-input" type="date" onkeydown="if(event.key === 'Enter') addTask(); displayTask();">
+            <button onclick="addTask(); displayTask();">Add</button>
+            <div class="tasks"></div>
+        </div>
+        <script src="Scripts/todo.js">
+            
+        </script>
+    </body>
+</html>
